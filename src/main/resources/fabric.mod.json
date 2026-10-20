@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "swordbot",
+  "version": "${version}",
+  "name": "Sword Bot",
+  "description": "Un Traqueur (zombie armé d'une épée) poursuit les joueurs et s'améliore selon leurs succès. Mod côté serveur : les clients vanilla peuvent se connecter.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.swordbot.SwordBotMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
